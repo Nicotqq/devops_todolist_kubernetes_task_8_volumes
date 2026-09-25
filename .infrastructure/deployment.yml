@@ -69,11 +69,11 @@ spec:
               mountPath: /app/data
             
             - name: todoapp-config
-              mountPath: /app/config
+              mountPath: /app/configs
               readOnly: true
             
             - name: todoapp-secret
-              mountPath: /app/secret
+              mountPath: /app/secrets
               readOnly: true
 
       volumes:
